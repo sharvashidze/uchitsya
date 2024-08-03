@@ -55,3 +55,16 @@ body{
 .footer-nav a:focus {
 color: var(--acsent-text-color);
 }
+/*buttons*/
+.bt{
+    color: var(--acsent-text-color);
+    cursor: pointer;
+    background-color:var(--second-text-color);
+    padding: 10px 10px;
+    border: 1px solid #E5E5E5;
+    border-radius: 15px;
+    
+}
+.bt:hover, .bt:focus{
+    color: var(--primary-text-color);
+}
