@@ -1,5 +1,57 @@
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+:root {
+    --primary-text-color: #363431;
+    --second-text-color: #FFFFFF;
+    --acsent-text-color: #74B900;
+}
+
 body{
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: blue;
-    background-color: rgb(251, 250, 252);
+    background-color: #E5E5E5;
+    color:#363431 ;
+}
+/* основной цвет #363431*/
+/*  второй  цвет #FFFFFF*/
+/* акцент цвет #74B900, #828282*/
+
+
+/* sait nav */
+.site-nav a{
+    color: var(--primary-text-color);
+}
+.site-nav a:hover, 
+.site-nav a:focus{
+    color: var(--acsent-text-color);
+}
+.footer-nav a{
+    color: var(--primary-text-color);
+}
+.footer-nav a:hover,
+.footer-nav a:focus {
+color: var(--acsent-text-color);
 }
