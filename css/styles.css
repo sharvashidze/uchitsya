@@ -41,19 +41,27 @@ body{
 
 
 /* sait nav */
-.site-nav a{
+.main-link{
     color: var(--primary-text-color);
 }
-.site-nav a:hover, 
-.site-nav a:focus{
+.main-link:hover, .main-link:focus{
     color: var(--acsent-text-color);
 }
-.footer-nav a{
+.active{
+color: var(--acsent-text-color);
+}
+/* footer link*/
+.fotter-link {
     color: var(--primary-text-color);
 }
-.footer-nav a:hover,
-.footer-nav a:focus {
-color: var(--acsent-text-color);
+
+.fotter-link:hover,
+.fotter-link:focus {
+    color: var(--acsent-text-color);
+}
+
+.active {
+    color: var(--acsent-text-color);
 }
 /*buttons*/
 .bt{
