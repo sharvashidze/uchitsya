@@ -53,6 +53,8 @@ color: var(--acsent-text-color);
 /* footer link*/
 .fotter-link {
     color: var(--primary-text-color);
+    
+
 }
 
 .fotter-link:hover,
