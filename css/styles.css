@@ -9,7 +9,7 @@ h4,
 h5,
 h6,
 p,
-ul {
+ul {  
     margin: 0;
 }
 
@@ -31,9 +31,10 @@ img {
 }
 
 body{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #E5E5E5;
     color:#363431 ;
+
 }
 /* основной цвет #363431*/
 /*  второй  цвет #FFFFFF*/
@@ -43,6 +44,9 @@ body{
 /* sait nav */
 .main-link{
     color: var(--primary-text-color);
+    font-size: 26px;
+    line-height: 1.12;
+        
 }
 .main-link:hover, .main-link:focus{
     color: var(--acsent-text-color);
@@ -53,10 +57,7 @@ color: var(--acsent-text-color);
 /* footer link*/
 .fotter-link {
     color: var(--primary-text-color);
-    
-
 }
-
 .fotter-link:hover,
 .fotter-link:focus {
     color: var(--acsent-text-color);
