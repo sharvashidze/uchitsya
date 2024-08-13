@@ -1,6 +1,7 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: $maincolor;
+    background-color: $secondcolor;
 }
 a {
     text-decoration: none;
@@ -48,3 +49,9 @@ img {
         width: 1200px;
     }
 }
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
