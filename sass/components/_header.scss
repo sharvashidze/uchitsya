@@ -1,0 +1,37 @@
+.header__link{
+    font-size: 20px;
+    line-height: 1;
+    color: $maincolor;
+    &:hover, &:focus{
+        color: $mainhoverColor;
+    }
+}
+.header__link--active{
+    color: $mainhoverColor;
+}
+
+.address__link{
+    font-size: 20px;
+    line-height: 1;
+    color: $maincolor;
+    
+    &:hover,
+    &:focus {
+    color: $mainhoverColor;
+   }
+}
+.address__bt{
+    font-size: 20px;
+        line-height: 1;
+    color: $maincolor;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid $mainhoverColor;
+    &:hover,
+        &:focus {
+            color: $mainhoverColor;
+            background-color: $maincolor;
+        }
+
+}

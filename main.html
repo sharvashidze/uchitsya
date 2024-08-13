@@ -15,24 +15,34 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href=""><img src="./img/logo.svg" alt="" /></a>
-        <ul>
-          <li>
-            <a href="./index.html" class="main-link">მთავარი გვერდი __</a>
-            <a href="" class="main-link active">ჩვენი მომსახურება</a>
+    <header class="header">
+      <nav class="header__nav">
+        <a href="" class="logo"><img src="./img/logo.svg" alt="" /></a>
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="./index.html" class="header__link">მთავარი გვერდი __</a>
+            <a href="" class="header__link header__link--active">ჩვენი მომსახურება</a>
           </li>
-          <li>
-            <a href="" class="main-link">აქცია</a>
+          <li class="header__item">
+            <a href="" class="header__link">აქცია</a>
           </li>
-          <li><a href="" class="main-link">ფასების სია</a></li>
-          <li><a href="" class="main-link">კონტაქტები</a></li>
+          <li class="header__item"><a href="" class="header__link">ფასების სია</a></li>
+          <li class="header__item"><a href="" class="header__link">კონტაქტები</a></li>
         </ul>
       </nav>
+      <address class="address">
+        <ul class="address__list">
+          <li class="address__item"><a href="" class="address__link">8 (913) 944-93-63</a></li>
+          <li class="address__item">
+            <a href="" class="address__link">ქალაქი ქუთაისი, გამსახურდიას ქუჩა 126</a>
+          </li>
+        </ul>
+        <button type="button" class="address__bt">შესვლა</button>
+        <button type="button" class="address__bt">რეგისტრაცია</button>
+      </address>
     </header>
     <section>
       <h1>ჩვენი მომსახურება</h1>

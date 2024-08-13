@@ -1,0 +1,91 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #363431;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.conteiner {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (min-width: 480px) {
+  .conteiner {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .conteiner {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .conteiner {
+    width: 1200px;
+  }
+}
+
+.header__link {
+  font-size: 20px;
+  line-height: 1;
+  color: #363431;
+}
+.header__link:hover, .header__link:focus {
+  color: #74B900;
+}
+
+.header__link--active {
+  color: #74B900;
+}
+
+.address__link {
+  font-size: 20px;
+  line-height: 1;
+  color: #363431;
+}
+.address__link:hover, .address__link:focus {
+  color: #74B900;
+}
+
+.address__bt {
+  font-size: 20px;
+  line-height: 1;
+  color: #363431;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #74B900;
+}
+.address__bt:hover, .address__bt:focus {
+  color: #74B900;
+  background-color: #363431;
+}/*# sourceMappingURL=main.css.map */
