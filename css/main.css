@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #363431;
   background-color: #ffffff;
@@ -55,11 +56,16 @@ img {
   }
 }
 
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 .header {
@@ -92,6 +98,7 @@ img {
 }
 
 .address__bt {
+  display: inline-block;
   font-weight: 400;
   font-size: 20px;
   line-height: 1;
@@ -101,12 +108,9 @@ img {
   border-radius: 25px;
   padding: 12px;
   border: 1px solid #74B900;
+  padding: 12px 20px;
 }
 .address__bt:hover, .address__bt:focus {
   color: #74B900;
   background-color: #363431;
-}
-
-.first {
-  padding: 12px 40px 12px 40px;
 }/*# sourceMappingURL=main.css.map */

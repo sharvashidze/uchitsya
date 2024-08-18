@@ -30,6 +30,7 @@
    }
 }
 .address__bt{
+    display: inline-block;
     font-weight: 400;
     font-size: 20px;
     line-height: 1;
@@ -39,6 +40,7 @@
     border-radius: 25px;
     padding: 12px;
     border: 1px solid $mainhoverColor;
+    padding: 12px 20px ;
     &:hover,
         &:focus {
             color: $mainhoverColor;
@@ -46,6 +48,6 @@
         }
 
 }
-.first{
-    padding: 12px 40px 12px 40px;
-}
+// .first{
+//     padding: 12px 40px 12px 40px;
+// }
