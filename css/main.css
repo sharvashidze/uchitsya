@@ -113,4 +113,17 @@ html {
 .address__bt:hover, .address__bt:focus {
   color: #74B900;
   background-color: #363431;
+}
+
+.hero {
+  background-color: black;
+}
+
+.hero__title {
+  color: #ffffff;
+  margin-top: 144px;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
