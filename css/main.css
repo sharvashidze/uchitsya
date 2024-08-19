@@ -159,7 +159,7 @@ html {
   padding-bottom: 128px;
   padding-top: 144px;
   text-align: center;
-  background-image: url(../../images/hero.jpg);
+  background-image: url("../../images/hero.jpg");
 }
 
 .hero__title {
