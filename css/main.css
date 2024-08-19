@@ -156,6 +156,7 @@ html {
 }
 
 .hero {
+  max-width: 1600px;
   padding-bottom: 128px;
   padding-top: 88px;
   text-align: center;
