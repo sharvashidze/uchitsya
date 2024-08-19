@@ -2,7 +2,9 @@
     padding-bottom: 128px;
     padding-top: 144px;
     text-align: center;
-    background-color: #998484;
+    
+    // background-color: #998484;
+    background-image: url(../../images/hero.jpg);
 }
 .hero__title{
  color: $secondcolor;
@@ -21,7 +23,7 @@
 }
 .hero__btn{
    margin-top: 80px;
-    background-color: #998484;
+    background-color:inherit;
     border-radius: 10px;
     border: 1px solid $secondcolor;
     color: $secondcolor;
