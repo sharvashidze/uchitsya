@@ -160,6 +160,8 @@ html {
   padding-top: 144px;
   text-align: center;
   background-image: url("../../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .hero__title {
