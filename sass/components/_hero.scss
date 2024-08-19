@@ -32,4 +32,10 @@
         padding: 10px 20px;
         min-width: 240px;
         height: 64px;
+        cursor: pointer;
+        &:hover,&:focus{
+            color: $secondHoverColor;
+            background-color: $maincolor;
+            border-style: none;
+        }
 }

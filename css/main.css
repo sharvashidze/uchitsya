@@ -150,4 +150,26 @@ html {
   padding: 10px 20px;
   min-width: 240px;
   height: 64px;
+  cursor: pointer;
+}
+.hero__btn:hover, .hero__btn:focus {
+  color: #71ca32;
+  background-color: #363431;
+  border-style: none;
+}
+
+.ebout {
+  padding-top: 176px;
+}
+
+.ebout__title {
+  color: #363431;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+}
+
+.ebout__list {
+  margin-top: 80px;
 }/*# sourceMappingURL=main.css.map */
