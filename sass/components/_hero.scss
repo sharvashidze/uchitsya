@@ -1,12 +1,35 @@
 .hero{
-    background-color: black;
+    padding-bottom: 128px;
+    padding-top: 144px;
+    text-align: center;
+    background-color: #998484;
 }
 .hero__title{
  color: $secondcolor;
-margin-top: 144px;
     font-size: 56px;
     font-weight: 400;
     line-height: 1.2;
-    text-align: center;
- 
+    
+}
+.hero__text{
+       color:$secondcolor;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1;
+        
+        margin-top: 80px;
+}
+.hero__btn{
+   margin-top: 80px;
+    background-color: #998484;
+    border-radius: 10px;
+    border: 1px solid $secondcolor;
+    color: $secondcolor;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1;
+        text-align: center;
+        padding: 10px 20px;
+        min-width: 240px;
+        height: 64px;
 }
