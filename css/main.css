@@ -95,12 +95,8 @@ html {
   display: flex;
 }
 
-.header__item {
+.header__list .header__item:not(:last-child) {
   margin-right: 56px;
-}
-
-.header__item:last-child {
-  margin-right: 0;
 }
 
 .header__link {
