@@ -104,6 +104,7 @@ html {
   font-size: 16px;
   line-height: 1;
   color: #363431;
+  position: relative;
 }
 .header__link:hover, .header__link:focus {
   color: #74B900;
@@ -111,6 +112,11 @@ html {
 
 .header__link--active {
   color: #74B900;
+}
+
+.ebout__svg {
+  width: 104px;
+  height: 104px;
 }
 
 .address {

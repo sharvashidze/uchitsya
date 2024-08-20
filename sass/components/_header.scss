@@ -31,9 +31,21 @@
     &:hover, &:focus{
         color: $mainhoverColor;
     }
+    position: relative;
 }
 .header__link--active{
     color: $mainhoverColor;
+}
+// .header__link::before{
+//     content: '';
+//     border-top: 2px solid $secondHoverColor;
+//     position: absolute;
+//     width: 100%;
+
+// }
+.ebout__svg{
+    width: 104px;
+    height: 104px;
 }
 
 .address{
