@@ -70,8 +70,12 @@
 
 .address{
     margin-left: auto;
+    padding-top: 5px;
+        padding-bottom: 5px;
 }
 .address__link{
+    align-items: center;
+        display: inline-flex;
     font-weight: 400;
     font-size: 16px;
     line-height: 1;
@@ -80,7 +84,15 @@
     &:hover,
     &:focus {
     color: $mainhoverColor;
+    fill: $mainhoverColor ;
    }
+}
+.address__link--svg{
+    fill: $maincolor;
+    width: 19px;
+    height: 19px;
+   margin-right: 20px;
+  
 }
 .address__bt{
     min-width: 40px;
@@ -109,4 +121,7 @@
 .address__list{
     margin-bottom: 10px;
 }
-
+.address__item{
+    text-align: center;
+    align-items: center;
+}

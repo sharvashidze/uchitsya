@@ -119,9 +119,17 @@ html {
 
 .address {
   margin-left: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .address__link {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   font-weight: 400;
   font-size: 16px;
   line-height: 1;
@@ -129,6 +137,14 @@ html {
 }
 .address__link:hover, .address__link:focus {
   color: #74B900;
+  fill: #74B900;
+}
+
+.address__link--svg {
+  fill: #363431;
+  width: 19px;
+  height: 19px;
+  margin-right: 20px;
 }
 
 .address__bt {
@@ -157,6 +173,13 @@ html {
 
 .address__list {
   margin-bottom: 10px;
+}
+
+.address__item {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero {
