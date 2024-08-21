@@ -24,24 +24,44 @@
 //     margin-right: 0;
 // }
 .header__link{
-    margin-left: 10px;
+    
     font-size: 16px;
     line-height: 1;
     color: $maincolor;
     &:hover, &:focus{
         color: $mainhoverColor;
     }
-    position: relative;
+    // position: relative;
+    
 }
 .header__link--active{
     color: $mainhoverColor;
+    // position: relative;
+    
 }
+
+// .header__link--active::before{
+//     content: '';
+//     width: 100%;
+//     border-top: 2px solid $secondHoverColor;
+//     position: absolute;
+// }
 // .header__link::before{
 //     content: '';
 //     border-top: 2px solid $secondHoverColor;
 //     position: absolute;
 //     width: 100%;
 
+// }
+// .header__item{
+//     padding: 20px 0 20px 0;
+//     position: relative;
+//     &::after{
+//         content: '';
+//         width: 100%;
+//         border-top: 2px solid$secondHoverColor;
+//         position: absolute;
+//     }
 // }
 .ebout__svg{
     width: 104px;

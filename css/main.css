@@ -100,11 +100,9 @@ html {
 }
 
 .header__link {
-  margin-left: 10px;
   font-size: 16px;
   line-height: 1;
   color: #363431;
-  position: relative;
 }
 .header__link:hover, .header__link:focus {
   color: #74B900;
