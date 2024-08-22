@@ -15,5 +15,23 @@
     display: flex;
 }
 .ebout__item{
-    align-items: center;
+       
+        display: inline-flex;
+        text-align: center;
+       
+}
+.ebout__link{
+        color: $maincolor;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+}
+.ebout__div{
+    width: 240px;
+        align-items: center;
+            display: inline-block;
+}
+.ebout__text{
+    margin-top: 32px;
 }
