@@ -62,7 +62,13 @@
         <div class="conteiner">
           <h1 class="hero__title">ფიგურის აპარატურის კორექცია</h1>
           <p class="hero__text">ატელიე Body Time</p>
-          <button type="button" class="hero__btn">გამოძახება</button>
+          <button type="button" class="hero__btn" data-modal-open>გამოძახება</button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <p class="modal__text">დაბრუნების ზარი</p>
+              <button class="" data-modal-close>გამოსვლა</button>
+            </div>
+          </div>
         </div>
       </section>
       <section class="ebout conteiner">
@@ -177,5 +183,6 @@
       </ul>
       <p>&copy; 2017-2021 ООО BODY TIME. ყველა უფლება დაცულია.</p>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
