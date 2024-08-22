@@ -266,6 +266,9 @@ html {
   line-height: 1.5;
   text-align: center;
 }
+.ebout__link:hover {
+  color: #74B900;
+}
 
 .ebout__div {
   width: 240px;
