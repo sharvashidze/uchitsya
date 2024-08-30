@@ -266,6 +266,16 @@ html {
   text-align: center;
 }
 
+.input__name {
+  position: relative;
+}
+
+.label__name {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .ebout {
   padding-top: 176px;
   padding-bottom: 176px;
