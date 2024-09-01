@@ -303,9 +303,6 @@ html {
 
 .ebout__list {
   margin-top: 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .ebout__item {
