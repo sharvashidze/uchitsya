@@ -68,6 +68,18 @@ html {
           box-sizing: inherit;
 }
 
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+  text-align: center;
+}
+
 .header {
   border-bottom: 1px solid #71ca32;
   width: 100%;
