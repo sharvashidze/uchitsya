@@ -1,0 +1,36 @@
+.raginda{
+    display: inline-block;
+    padding: 20px 50px;
+    background-color: aquamarine;
+    margin-left: 50px;
+    text-align: center;
+    position: relative;
+    
+}
+
+
+.raginda::after{
+    position: absolute;
+    content: '';
+    width: 20px;
+        height: 20px;
+        background-color: rgb(7, 7, 6);
+        margin-left: 10px;
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     
+}
+
+.raginda::before{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: rebeccapurple;
+    top: 50%;
+    right: 20px;
+    transform: translateY(calc(-49%));
+}
+.raginda:hover::after{
+   
+    transform: translateY(-50px);
+}
